@@ -32,10 +32,10 @@ Example: swap_bookends(["happy", "sad", "angry"]) -> ["angry", "sad", "happy"], 
 
 # Implementation:
 The solutions are implemented in a Jupyter Notebook file (.ipynb) conatining:
-1) Function definitions for each problems
-2) Test cases with expected outputs
-3) Clear documentation and comments
+1. create and reshape NumPy arrays using appropriate NumPy functions;
+2. perform vectorized numerical operations on an ndarray;
+3. compute array statistics and use Boolean conditions to select elements
 
 # Learning Outcomes:
 Through these exercises, you will:
-- Identify basic codes and functions in Python Programming
+- Identify complex codes and functions using NumPy in Python Programming
