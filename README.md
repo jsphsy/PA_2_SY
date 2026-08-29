@@ -1,4 +1,4 @@
-# NUMERICAL PYTHON (NUMPY): Experiment#2
+# NUMERICAL PYTHON (NUMPY): EXPERIMENT#2
 
 This repository contains solutions to three Python programming exercises as part of an Introductory Python Programming Experiment.
 
