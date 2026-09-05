@@ -3,32 +3,24 @@
 This repository contains solutions to three Python programming exercises as part of an Introductory Python Programming Experiment.
 
 # EXERCISES:
-# A. WORD ROTATION PROBLEM
+# A. REPRODUCIBLE NORMALIZATION PROBLEM
 
-Task: Create a function named rotate word() that accepts a non-empty string. Move the first character
-of the string to the end while keeping all remaining characters in their original order. Preserve the
-capitalization of every character.
+Task: Create a reproducible random 5 × 5 integer ndarray named X. where ¯x is the mean of all 25 elements and σ is their population standard deviation as returned by NumPy’s default std() call. Store the normalized array in X normalized.
 
-Example: rotate_word("Programming") -> "rogrammingP", rotate_word("Google") -> "oogleG"
+Required checks: Display X, X normalized, its mean, and its standard deviation. Up to floating-point rounding, the normalized mean must be 0 and the normalized standard deviation must be 1.
 
-# B. USERNAME BUILDER PROBLEM
+# B. CUBES DIVISIBLE BY 4 PROBLEM
 
-Task: Create a function named make username() that accepts two strings: first name and last name. The
-function must:
-1. convert all letters to lowercase;
-2. remove all spaces from the first name;
-3. remove all spaces from the last name; and
-4. join the processed first and last names using one period (.).
-Function format: make username(first name, last name)
+Task: Using NumPy, create the first 100 positive integers, cube every element, and reshape the result into a 10 × 10 ndarray named C. Thus, C begins with 1^3 and ends with 100^3. Use a Boolean condition on C to obtain every cubed value divisible by 4. Store the selected values in div by 4. Preserve NumPy’s normal row-major selection order.
 
-Example: make_username("Joseph", "Sy") -> "joseph.sy", make_username("Sherina", "Padilla") -> "sherina.padilla"
+Required checks: Display the shape of C, the array div by 4, and the number of selected elements. A correct solution has 50 selected elements; the first is 8 and the last is 1,000,000.
 
 
-# C. BOOKEND SWAP PROBLEM
+# C. ABOVE-MEAN SQUARES PROBLEM
 
-Task: Create a function named swap bookends() that accepts a list containing at least two elements. Using these variables, return a new list in which the first and last elements have exchanged positions. The elements in middle must remain in their original order.
+Task: Create a 6 × 6 ndarray named S containing the squares of the first 36 positive integers in increasing row-major order. Compute the mean of all elements of S and store it in S mean. Then use Boolean filtering to select only the elements strictly greater than S mean. Store these values in above mean.
 
-Example: swap_bookends(["happy", "sad", "angry"]) -> ["angry", "sad", "happy"], swap_bookends([6, 7]) -> [7, 6]
+Required checks: Display S, S mean, above mean, and the number of selected elements. A correct solution has 15 selected elements; the first is 484 and the last is 1296.
 
 # Implementation:
 The solutions are implemented in a Jupyter Notebook file (.ipynb) conatining:
